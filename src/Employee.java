@@ -18,7 +18,7 @@ public class Employee {
 
    public void raiseSalary(int percent) {
       mySalary = mySalary +
-         percent * 0.01 * mySalary;
+         percent * 0.05 * mySalary; // El percentatge sera de 0.05 * mySalari
    }
 
    public void setSalary(double salary) {
